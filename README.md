@@ -1,16 +1,19 @@
 MyEvents
 -----------
+This repository regroup a program writed into c++ to practice class, abstract class , exception, operator overloaded.
 
 abstract class Event :
-- name
-- num
-- date
-- prix
 
-class Freelance : public Event :
+An event can be of Freelance or of JoEvents
 
-print()
+class Freelance :
 
-class JoEvents : public Event :
+supplement  parameter -> String job.
 
-print()
+class JoEvents :
+
+when the even is of JoEvents.
+
+class JokePriceException :
+
+if the price
